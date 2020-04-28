@@ -1,16 +1,12 @@
-package net.pot8os.kotlintestsample
+package com.awesome.testing
 
 import android.os.Build
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import net.pot8s.kotlintestsample.CalculatorSpec
 import org.junit.runner.RunWith
 import org.robolectric.annotation.Config
 
-/**
- * @author So Nakamura, 2020-Feb-15
- */
 @RunWith(AndroidJUnit4::class)
 @Config(
-  sdk = [Build.VERSION_CODES.P]
+  sdk = [Build.VERSION_CODES.O_MR1]
 )
 class RobolectricCalculatorTest : CalculatorSpec()

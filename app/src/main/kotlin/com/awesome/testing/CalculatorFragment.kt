@@ -1,4 +1,4 @@
-package net.pot8os.kotlintestsample
+package com.awesome.testing
 
 import android.os.Bundle
 import android.view.View
@@ -6,11 +6,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.observe
-import net.pot8os.kotlintestsample.databinding.CalculatorBinding
+import com.awesome.testing.databinding.CalculatorBinding
 
-/**
- * @author So Nakamura, 2020-Feb-15
- */
 class CalculatorFragment : Fragment(R.layout.calculator) {
 
   private val viewModel: CalculatorViewModel by viewModels()

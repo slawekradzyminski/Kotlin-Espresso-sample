@@ -1,4 +1,4 @@
-package net.pot8os.kotlintestsample
+package com.awesome.testing
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -8,9 +8,6 @@ import java.math.BigDecimal
 import java.text.DecimalFormat
 import java.util.*
 
-/**
- * @author So Nakamura, 2020-Feb-15
- */
 class CalculatorViewModel : ViewModel() {
 
   data class State(

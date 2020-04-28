@@ -1,4 +1,4 @@
-package net.pot8s.kotlintestsample
+package com.awesome.testing
 
 import androidx.fragment.app.testing.launchFragmentInContainer
 import androidx.test.espresso.Espresso.onView
@@ -6,15 +6,10 @@ import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
-import net.pot8os.kotlintestsample.CalculatorFragment
-import net.pot8os.kotlintestsample.R
 import org.junit.Before
 import org.junit.Test
 import java.text.DecimalFormat
 
-/**
- * @author So Nakamura, 2020-Feb-15
- */
 abstract class CalculatorSpec {
 
   @Before

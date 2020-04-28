@@ -1,10 +1,7 @@
-package net.pot8os.kotlintestsample
+package com.awesome.testing
 
 import java.math.BigDecimal
 
-/**
- * @author So Nakamura, 2019-Mar-16
- */
 enum class Figure {
   SUM, SUB, MUL, DIV, NONE;
 
